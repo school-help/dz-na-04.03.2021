@@ -14,6 +14,8 @@ for i in range(n):
 print(a)
 
 
+# dop 4
+
 n = 10
 a = [0] * n
 for i in range(n):
@@ -21,6 +23,8 @@ for i in range(n):
 a.sort()
 print(*a)
 
+
+# dop 3
 
 n = 10
 a = [0] * n
@@ -36,6 +40,8 @@ if not true:
     print('Не найден!')
 
 
+# dop 2
+
 input_ = int(input())
 a = [input_]
 while input_ != 0:
@@ -48,6 +54,7 @@ while True:
     else:
         del a[min(a)]
 
+# dop 1
 
 n = 10
 a = [0] * n
@@ -56,6 +63,8 @@ for i in range(n):
 a.sort(reverse=True)
 print(a)
 
+
+# zadacha 1
 
 n = 20
 a = [0] * n
